@@ -37,3 +37,5 @@ commitTest-11: Me equivoque al generar el proyecto de Ionic y borre el contenido
 commitTest-12: No me permite crear el proyecto en un directorio existente... tendre que crear el proyecto ionic con el gitignore ya configurado y luego mezclar con el git de servidor como habia hecho en un principio
 
 commitTest-14: Bueno, al final vamos a probar si el commit se almacena en local y luego debo manual mente especificar el repositorio y branch o esta ligado directamente como antes... el gitignore ignora la carpeta node_modules, ya que es el git conigurado por ionic start
+
+commitTest-15: Funciono como era esperado, no como era deseado... Ahora a empezar con el proyecto!!!
