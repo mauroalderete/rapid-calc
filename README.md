@@ -28,3 +28,6 @@ commitTest-08: Sip, paso lo segundo. Se volvio a scanear y se señala manualFile
 Para probarlo voy a a probechar en este commit a crear un tercer archivo para luego antes de reiniciar VSCode modificar el nombre de manualFile-01 por manualFile-04 y eliminar manualFile-03.txt
 
 commitTest-09: Aparecen en la vista de archivos dos cambios, uno solo registrado. manualFile-03.txt obviamente no esta. manualFile-04 como untracked... Sin embargo en la seccion de commits aparecen tres marcas. Aparece deleteado manualFile-03, como corresponde y aparece deleteado tambien manualFile-01. Esto concuerda con la información encontrada en la web.
+
+commitTest-10: voy a proceder a crear el proyecto en blanco de Ionic.
+En este caso debere tener especial atención con lo que sucede al git respecto a la carpeta node_modules. Es una carpeta con un peso superior a los 100Mb, por lo que no sería muy adecuado que se subiera. En la practica anterior a este, cree el proyecto antes de enlazarlo con Git y esta carpeta no habia entrado en el seguimiento. Sin embargo extrañamente los otros archivos no tuvieron inconvenientes. Aún así Git decia que habia sincronizado 88 archivos, y el sistema de Windows solo detectaba 76 ¿De donde son esos otros archivos restantes?
