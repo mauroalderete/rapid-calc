@@ -13,3 +13,5 @@ committest-03: Ya envie el commit, pero como era de esperarse no subio ningun ar
 
 *Esto puede ser bastante util si al final del día lo que se busca es un momento especifico para subir el commit*
 commitTest-04: Lo interesante es ver que sucede con las actualizaciones en el servidor. Lo natural es esperar que la ultima version corresponda al commitTest-05... ¿pero como dejara acentado los demas commits anteriores que si figuran en mi clone local?
+
+commitTest-05: Este es será el ultimo commit guardado en local antes de ejecutar push origin... veamos que sucede
