@@ -9,3 +9,6 @@ Se trata de un ejercicio de practica con el fin de incorporar experiencias con e
 El primer commit realizado commitTest-01 se ejecuto primero de manera local, y luego tuve que especificar la ruta del servidor atraves de la instrucción push to del menu que ofrece VSCode. Solo en ese momento Gitlab actualizo en segundos.
 
 commitTest-02: Ahora el objetivo es crear una serie de commits en local, y luego al final de todo ejecutar push to origin
+committest-03: Ya envie el commit, pero como era de esperarse no subio ningun archivo en el servidor.
+
+*Esto puede ser bastante util si al final del día lo que se busca es un momento especifico para subir el commit*
