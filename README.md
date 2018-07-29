@@ -33,3 +33,5 @@ commitTest-10: voy a proceder a crear el proyecto en blanco de Ionic.
 En este caso debere tener especial atención con lo que sucede al git respecto a la carpeta node_modules. Es una carpeta con un peso superior a los 100Mb, por lo que no sería muy adecuado que se subiera. En la practica anterior a este, cree el proyecto antes de enlazarlo con Git y esta carpeta no habia entrado en el seguimiento. Sin embargo extrañamente los otros archivos no tuvieron inconvenientes. Aún así Git decia que habia sincronizado 88 archivos, y el sistema de Windows solo detectaba 76 ¿De donde son esos otros archivos restantes?
 
 commitTest-11: Me equivoque al generar el proyecto de Ionic y borre el contenido en local. Por suerte lo pude recuperar facilmente desde Gitlab... El poder de Git... continuo con la prueba
+
+commitTest-12: No me permite crear el proyecto en un directorio existente... tendre que crear el proyecto ionic con el gitignore ya configurado y luego mezclar con el git de servidor como habia hecho en un principio
