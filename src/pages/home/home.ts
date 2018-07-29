@@ -12,8 +12,8 @@ export class HomePage {
   buttons =[
     [
       { value: "C", label: "trash" },
-      { value: ".", label: " " },
-      { value: ".", label: " " },
+      { value: "(", label: "(" },
+      { value: ")", label: ")" },
       { value: "B", label: "backspace" }
     ],
     [
@@ -76,8 +76,16 @@ export class HomePage {
       case '8':
       case '9':
       case '.':
-      case 'B':{
-        this.result=eval( this.expresion );
+      case 'B':
+      case ')':{
+        try {
+          this.result = eval(this.expresion);
+        } catch (e) {
+          if (e instanceof SyntaxError) {
+            console.log(e.message);
+          }
+        }
+        
       }break;
       case "":{
         this.result="0";
