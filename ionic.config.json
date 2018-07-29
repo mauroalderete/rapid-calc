@@ -1,0 +1,7 @@
+{
+  "name": "rapidCalc",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
