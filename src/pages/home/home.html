@@ -1,9 +1,7 @@
 
 <ion-content class="myContent">
   <button ion-button color="primary" large block class="rcDisplay">{{result}}</button>
-  <ion-item class="rcExpresionDisplay" text-right>
-    &nbsp;{{expresion}}
-  </ion-item>
+  <button ion-button color="dark" small item-right block class="rcExpresionDisplay">{{expresion}}</button>
   
   <ion-grid no-padding class="rcGrid">
     <ion-row *ngFor="let btnRow of buttons">
