@@ -21,3 +21,5 @@ commitTest-06: Es interesante. Todos los cambios se almacenaron en el historial 
 *Esto me deja pensando ¿porque la primera vez que use este sistema, habiendo construido el proyecto de la misma forma que ahora, al actualizar el commit inmediatamente lo hacia en el servidor? ¿Tendra algo que ver el registro global de la configuracion de git de mi nombre de usuario?
 
 A partir de este momento pienso probar lo que sucede si creo un archivo de manera manual, es decir, sin usar el ide VSCode
+
+commitTest-07: cree un archivo de manera manual manualFile-01.txt y se registro rapidamente con VSCode y por el git... ¿Que sucederia si cierro VSCode y creo un archivo manual? :: Git seguira ejecutandose? VSCode inicia Git al abrir el proyecto y entonces se revisaran los archivos? Parece ser esto ultimo lo mas razonable ¬¬
