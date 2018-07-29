@@ -23,3 +23,6 @@ commitTest-06: Es interesante. Todos los cambios se almacenaron en el historial 
 A partir de este momento pienso probar lo que sucede si creo un archivo de manera manual, es decir, sin usar el ide VSCode
 
 commitTest-07: cree un archivo de manera manual manualFile-01.txt y se registro rapidamente con VSCode y por el git... ¿Que sucederia si cierro VSCode y creo un archivo manual? :: Git seguira ejecutandose? VSCode inicia Git al abrir el proyecto y entonces se revisaran los archivos? Parece ser esto ultimo lo mas razonable ¬¬
+
+commitTest-08: Sip, paso lo segundo. Se volvio a scanear y se señala manualFile-02.txt como untracked... esto me plantea la siguiente pregunta, que sucederia si ese archivo cambia de nombre mientras no esta abierto VSCode... y si se elimina?
+Para probarlo voy a a probechar en este commit a crear un tercer archivo para luego antes de reiniciar VSCode modificar el nombre de manualFile-01 por manualFile-04 y eliminar manualFile-03.txt
