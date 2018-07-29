@@ -1,35 +1,20 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      rapidCalc
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
-  <button ion-button color="primary" full outline>&nbsp;{{result}}</button>
-
-  <ion-card>
-    <ion-card-header>
-      &nbsp;{{expresion}}
-    </ion-card-header>
-    <ion-card-content>
-      <ion-grid>
-        <ion-row *ngFor="let btnRow of buttons">
-          <ion-col col-3 *ngFor="let btn of btnRow">
-            <button ion-button col-12 color=dark (click)="buttonPress(btn.value)">
-              <span *ngIf="btn.label.length > 2">
-                <ion-icon name="{{btn.label}}"></ion-icon>
-              </span>
-              <span *ngIf="btn.label.length < 3">{{btn.label}}</span>
-            </button>
-          </ion-col>
-        </ion-row>
-      </ion-grid>
-    </ion-card-content>
+<ion-content class="myContent">
+  <button ion-button color="primary" large block class="rcDisplay">{{result}}</button>
+  <ion-item class="rcExpresionDisplay" text-right>
+    &nbsp;{{expresion}}
+  </ion-item>
   
-  </ion-card>
-
-
-  
+  <ion-grid no-padding class="rcGrid">
+    <ion-row *ngFor="let btnRow of buttons">
+      <ion-col *ngFor="let btn of btnRow">
+        <button ion-button col-11 large color="lightdark" (click)="buttonPress(btn.value)">
+          <span *ngIf="btn.label.length > 2">
+            <ion-icon name="{{btn.label}}"></ion-icon>
+          </span>
+          <span *ngIf="btn.label.length < 3">{{btn.label}}</span>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

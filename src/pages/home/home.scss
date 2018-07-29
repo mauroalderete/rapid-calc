@@ -1,3 +1,26 @@
-page-home {
+$colors: (
+  fondo:       #222,
+  fuente:       #aaa
+);
 
+.rcDisplay{
+    font-weight: 700;
+    font-size: 2em;
+    margin: 0;
+}
+
+.rcExpresionDisplay{
+    background-color: #222;
+    margin: 0;
+    color: #aaa;
+}
+
+.rcGrid{
+    margin: 0;
+}
+
+.myContent{
+    background-color: #222;
+    margin: 0;
+    color: #aaa;
 }
