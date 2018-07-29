@@ -26,3 +26,5 @@ commitTest-07: cree un archivo de manera manual manualFile-01.txt y se registro 
 
 commitTest-08: Sip, paso lo segundo. Se volvio a scanear y se señala manualFile-02.txt como untracked... esto me plantea la siguiente pregunta, que sucederia si ese archivo cambia de nombre mientras no esta abierto VSCode... y si se elimina?
 Para probarlo voy a a probechar en este commit a crear un tercer archivo para luego antes de reiniciar VSCode modificar el nombre de manualFile-01 por manualFile-04 y eliminar manualFile-03.txt
+
+commitTest-09: Aparecen en la vista de archivos dos cambios, uno solo registrado. manualFile-03.txt obviamente no esta. manualFile-04 como untracked... Sin embargo en la seccion de commits aparecen tres marcas. Aparece deleteado manualFile-03, como corresponde y aparece deleteado tambien manualFile-01. Esto concuerda con la información encontrada en la web.
